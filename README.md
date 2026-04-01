@@ -6,13 +6,13 @@
 
 ## 1. Структура проекта
 
-Проект изначально разбит на логические папки: `App`, `Core`, `Entities`, `Modules`, `Services`, `Resources`, `Extensions`. Это позволило разделить ответственность между слоями и сделать код читаемым и удобным для поддержки.
+Проект изначально разбит на логические папки: `App`, `Core`, `Entities`, `Modules`, `Services`, `Resources`, `Extensions`.
 
 ---
 
 ## 2. Архитектура VIPER
 
-Основные экраны реализованы в виде отдельных VIPER-модулей: `StartGame`, `Game`, `Rules`, `Author`. Для каждого модуля выделены `View`, `Presenter`, `Interactor`, `Router`, `Contracts`, что демонстрирует полное соблюдение архитектурного подхода.
+Основные экраны реализованы в виде отдельных VIPER-модулей: `StartGame`, `Game`, `Rules`, `Author`. Для каждого модуля выделены `View`, `Presenter`, `Interactor`, `Router`, `Contracts`
 
 ---
 
